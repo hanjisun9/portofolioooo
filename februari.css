@@ -504,50 +504,59 @@ body {
         width: 100%;
         height: auto;
         padding: 1rem;
+        perspective: none; /* hilangkan efek 3D */
     }
 
     .book {
-        flex-direction: column;
-        perspective: none;
+        display: block;
     }
 
-    .book-page {
+    .book .book-page {
+        position: static;
         width: 100%;
         height: auto;
-        position: relative;
-        transform: none !important;
+        transform: none;
         box-shadow: none;
+        margin-bottom: 1.5rem;
     }
 
     .book-page .page-front,
     .book-page .page-back {
-        position: relative;
+        position: static;
+        width: 100%;
+        height: auto;
+        transform: none;
+        backface-visibility: visible;
         padding: 1rem;
     }
 
     .cover,
+    .nextprev-btn,
+    .back-profile {
+        display: none; /* sembunyikan cover & tombol flip */
+    }
+
+    .number-page {
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
     .cover-gambar img {
-        display: none;
+        max-width: 250px;
+        display: block;
+        margin: 0 auto 1rem;
     }
 
     .profile-page img {
         max-width: 150px;
+        margin-bottom: 1rem;
     }
 
-    .reflection-box {
-        flex-direction: column;
-    }
-
-    .portofolio-top,
-    .portofolio-bottom {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .number-page,
-    .nextprev-btn,
-    .back-profile {
-        position: static;
-        margin-top: 1rem;
+    .profile-page p,
+    .aboutme-content p,
+    .reflection-content p {
+        font-size: 0.9rem;
     }
 }
