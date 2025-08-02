@@ -448,18 +448,6 @@ body {
     color: var(--white-color);
 }
 
-.end-gambar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.end-gambar img {
-    max-width: 400px;
-    margin-left: 1rem;
-    border-radius: 50%;
-}
-
 .back-profile {
     position: absolute;
     bottom: 1.2rem;
@@ -498,66 +486,3 @@ body {
     transform: translateX(-50%) scale(1);
     top: -1.8rem;
 }
-
-@media (max-width: 768px) {
-    .wrapper {
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-        perspective: none; /* hilangkan efek 3D */
-    }
-
-    .book {
-        display: block;
-    }
-
-    .book .book-page {
-        position: static;
-        width: 100%;
-        height: auto;
-        transform: none;
-        box-shadow: none;
-        margin-bottom: 1.5rem;
-    }
-
-    .book-page .page-front,
-    .book-page .page-back {
-        position: static;
-        width: 100%;
-        height: auto;
-        transform: none;
-        backface-visibility: visible;
-        padding: 1rem;
-    }
-
-    .cover,
-    .nextprev-btn,
-    .back-profile {
-        display: none; /* sembunyikan cover & tombol flip */
-    }
-
-    .number-page {
-        position: static;
-        display: block;
-        text-align: center;
-        margin-top: 1rem;
-    }
-
-    .cover-gambar img {
-        max-width: 250px;
-        display: block;
-        margin: 0 auto 1rem;
-    }
-
-    .profile-page img {
-        max-width: 150px;
-        margin-bottom: 1rem;
-    }
-
-    .profile-page p,
-    .aboutme-content p,
-    .reflection-content p {
-        font-size: 0.9rem;
-    }
-}
-
