@@ -110,7 +110,7 @@ body {
 
 .cover-gambar img {
     max-width: 500px;
-    padding-right: 5rem;
+    padding-right: 4rem;
 
 }
 
@@ -486,3 +486,4 @@ body {
     transform: translateX(-50%) scale(1);
     top: -1.8rem;
 }
+
