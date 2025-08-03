@@ -487,6 +487,9 @@ body {
     top: -1.8rem;
 }
 
+
+/*tampilan hp*/
+
 @media (max-width: 768px) {
     .wrapper {
         width: 95%;
@@ -500,12 +503,12 @@ body {
     }
 
     .cover-gambar img {
-        max-width: 335px;
-        margin-left: 1rem;
+        max-width: 250px;
+        margin-left: 1.5rem;
     }
 
     .profile-page img {
-        max-width: 115px;
+        max-width: 110px;
     }
 
     .profile-page h1 {
@@ -520,38 +523,39 @@ body {
         font-size: 0.5rem;
     }
 
-    .title {
-        text-align: center;
-        margin-bottom: 1rem;
+    .profile-page .social-media a {
+        width: 1.5rem;
+        height: 1.5rem;
         font-size: 1rem;
     }
-    
+
+    .profile-page .btn-box {
+        margin-top: 0.5rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
     .aboutme-box .aboutme-content {
-        position: relative;
-        padding-left: 1dvh;
         margin-bottom: 0.5rem;
     }
 
     .aboutme-box .aboutme-content::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -0.65rem;
-        width: 1rem;
-        height: 1rem;
+        left: -0.30rem;
+        width: 0.5rem;
+        height: 0.5rem;
         background: var(--main-color);
         border-radius: 50%;
     }
 
     .aboutme-content .tentang {
-        color: var(--main-color);
-        margin: 1rem;
-        font-size: 0.8rem;
+        margin: 0.6rem;
+        font-size: 0.5rem;
     }
 
     .aboutme-content p {
-        text-align: justify;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 
     .btn {
@@ -561,27 +565,19 @@ body {
     }
 
     .portofolio-top {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
     .portofolio-bottom {
-        display: flex;
-        justify-content: center;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
     }
 
     .portofolio-bottom .portofolio-box img {
-        max-width: 150px;
+        max-width: 130px;
     }
 
     .portofolio-box img {
-        width: auto;
-        height: auto;
         max-width: 105px;
-        border-radius: 1rem;
-        transition: .5s ease;
     }
 
     .portofoli-layer h4 {
@@ -590,19 +586,14 @@ body {
 
     .portofoli-layer p {
         font-size: 0.30rem;
-        margin: .3rem 0 1rem;
     }
 
     .reflection-box {
-        display: flex;
-        flex-wrap: wrap;
         gap: 0.4rem;
-        margin-bottom: 3rem;
     }
 
     .reflection-content i {
         font-size: 1rem;
-        color: var(--main-color);
     }
 
     .reflection-content h3 {
@@ -610,9 +601,15 @@ body {
     }
 
     .reflection-content p {
-        font-size: 0.35rem;
-        text-align: justify;
+        font-size: 0.40rem;
     }
+
+
+
+    .reflection-box .reflection-content {
+        padding: .5rem .4rem .1rem;
+    }
+
 
     .contact-box .field {
         width: 100%;
@@ -622,11 +619,31 @@ body {
         padding: .8rem;
         font-size: 0.5rem;
         color: var(--text-color);
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     .contact-box textarea {
         resize: none;
-        height: 5.5rem;
+        height: 5rem;
+    }
+
+    .back-profile {
+        bottom: 1rem;
+        right: 1.50rem;
+        width: 1.50rem;
+        height: 1.50rem;
+        font-size: 1rem;
+    }
+
+    .back-profile p {
+        font-size: 0.5rem;
+    }
+
+    .number-page {
+        font-size: 0.5rem;
+    }
+
+    .nextprev-btn {
+        font-size: 1rem;
     }
 }
