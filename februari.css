@@ -503,24 +503,24 @@ body {
     }
 
     .cover-gambar img {
-        max-width: 250px;
+        max-width: 210px;
         margin-left: 1.5rem;
     }
 
     .profile-page img {
-        max-width: 110px;
+        max-width: 100px;
     }
 
     .profile-page h1 {
-        font-size: 1rem;
+        font-size: 0.80rem;
     }
 
     .profile-page h3 {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .profile-page p {
-        font-size: 0.5rem;
+        font-size: 0.45rem;
     }
 
     .profile-page .social-media a {
@@ -573,7 +573,7 @@ body {
     }
 
     .portofolio-bottom .portofolio-box img {
-        max-width: 130px;
+        max-width: 110px;
     }
 
     .portofolio-box img {
@@ -585,7 +585,7 @@ body {
     }
 
     .portofoli-layer p {
-        font-size: 0.30rem;
+        font-size: 0.25rem;
     }
 
     .reflection-box {
